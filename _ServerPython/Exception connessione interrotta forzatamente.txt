@@ -1,0 +1,147 @@
+[2019-02-18 11:12:56,568] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/UnityProjects_new/atof_v1/_ServerPython/Server.py", line 39, in index
+    r = requests.post("http://192.168.0.147:7007", json=dataStr)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+{"events": [{"typ": "touch", "val": "0", "act": 0, "dur": 1617}]}
+[2019-02-18 11:12:58,010] ERROR in app: Exception on / [POST]
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [WinError 10054] Connessione in corso interrotta forzatamente dall'host remoto
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\util\retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\urllib3\connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1321, in getresponse
+    response.begin()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 257, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, "Connessione in corso interrotta forzatamente dall'host remoto", None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:/UnityProjects_new/atof_v1/_ServerPython/Server.py", line 39, in index
+    r = requests.post("http://192.168.0.147:7007", json=dataStr)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\api.py", line 116, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Chris\AppData\Local\Programs\Python\Python37-32\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, "Connessione in corso interrotta forzatamente dall'host remoto", None, 10054, None))

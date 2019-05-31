@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: ec0274eb89395934894551eafae91443
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: headusOBJexport_polySurface15
+    100002: headusOBJexport_polySurface16
+    100004: headusOBJexport_polySurface17
+    100006: headusOBJexport_polySurface18
+    100008: headusOBJexport_polySurface19
+    100010: headusOBJexport_polySurface2
+    100012: headusOBJexport_polySurface20
+    100014: headusOBJexport_polySurface21
+    100016: headusOBJexport_polySurface22
+    100018: headusOBJexport_polySurface3
+    100020: headusOBJexport_polySurface4
+    100022: headusOBJexport_polySurface5
+    100024: headusOBJexport_polySurface6
+    100026: headusOBJexport_polySurface7
+    100028: polySurface1_headusOBJexport
+    100030: polySurface23_polySurface25
+    100032: polySurface24_polySurface23
+    100034: //RootNode
+    400000: headusOBJexport_polySurface15
+    400002: headusOBJexport_polySurface16
+    400004: headusOBJexport_polySurface17
+    400006: headusOBJexport_polySurface18
+    400008: headusOBJexport_polySurface19
+    400010: headusOBJexport_polySurface2
+    400012: headusOBJexport_polySurface20
+    400014: headusOBJexport_polySurface21
+    400016: headusOBJexport_polySurface22
+    400018: headusOBJexport_polySurface3
+    400020: headusOBJexport_polySurface4
+    400022: headusOBJexport_polySurface5
+    400024: headusOBJexport_polySurface6
+    400026: headusOBJexport_polySurface7
+    400028: polySurface1_headusOBJexport
+    400030: polySurface23_polySurface25
+    400032: polySurface24_polySurface23
+    400034: //RootNode
+    2100000: headusOBJexport_polySurface15Mat
+    2100002: headusOBJexport_polySurface16Mat
+    2100004: headusOBJexport_polySurface17Mat
+    2100006: headusOBJexport_polySurface18Mat
+    2100008: headusOBJexport_polySurface19Mat
+    2100010: headusOBJexport_polySurface2Mat
+    2100012: headusOBJexport_polySurface20Mat
+    2100014: headusOBJexport_polySurface21Mat
+    2100016: headusOBJexport_polySurface22Mat
+    2100018: headusOBJexport_polySurface3Mat
+    2100020: headusOBJexport_polySurface4Mat
+    2100022: headusOBJexport_polySurface5Mat
+    2100024: headusOBJexport_polySurface6Mat
+    2100026: headusOBJexport_polySurface7Mat
+    2100028: polySurface1_headusOBJexportMat
+    2100030: polySurface23_polySurface25Mat
+    2100032: polySurface24_polySurface23Mat
+    2300000: headusOBJexport_polySurface15
+    2300002: headusOBJexport_polySurface16
+    2300004: headusOBJexport_polySurface17
+    2300006: headusOBJexport_polySurface18
+    2300008: headusOBJexport_polySurface19
+    2300010: headusOBJexport_polySurface2
+    2300012: headusOBJexport_polySurface20
+    2300014: headusOBJexport_polySurface21
+    2300016: headusOBJexport_polySurface22
+    2300018: headusOBJexport_polySurface3
+    2300020: headusOBJexport_polySurface4
+    2300022: headusOBJexport_polySurface5
+    2300024: headusOBJexport_polySurface6
+    2300026: headusOBJexport_polySurface7
+    2300028: polySurface1_headusOBJexport
+    2300030: polySurface23_polySurface25
+    2300032: polySurface24_polySurface23
+    3300000: headusOBJexport_polySurface15
+    3300002: headusOBJexport_polySurface16
+    3300004: headusOBJexport_polySurface17
+    3300006: headusOBJexport_polySurface18
+    3300008: headusOBJexport_polySurface19
+    3300010: headusOBJexport_polySurface2
+    3300012: headusOBJexport_polySurface20
+    3300014: headusOBJexport_polySurface21
+    3300016: headusOBJexport_polySurface22
+    3300018: headusOBJexport_polySurface3
+    3300020: headusOBJexport_polySurface4
+    3300022: headusOBJexport_polySurface5
+    3300024: headusOBJexport_polySurface6
+    3300026: headusOBJexport_polySurface7
+    3300028: polySurface1_headusOBJexport
+    3300030: polySurface23_polySurface25
+    3300032: polySurface24_polySurface23
+    4300000: headusOBJexport_polySurface15
+    4300002: headusOBJexport_polySurface16
+    4300004: headusOBJexport_polySurface17
+    4300006: headusOBJexport_polySurface18
+    4300008: headusOBJexport_polySurface19
+    4300010: headusOBJexport_polySurface2
+    4300012: headusOBJexport_polySurface20
+    4300014: headusOBJexport_polySurface21
+    4300016: headusOBJexport_polySurface22
+    4300018: headusOBJexport_polySurface3
+    4300020: headusOBJexport_polySurface4
+    4300022: headusOBJexport_polySurface5
+    4300024: headusOBJexport_polySurface6
+    4300026: headusOBJexport_polySurface7
+    4300028: polySurface1_headusOBJexport
+    4300030: polySurface23_polySurface25
+    4300032: polySurface24_polySurface23
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface15Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface16Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface17Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface18Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface19Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface20Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface21Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface22Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface2Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface3Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface4Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface5Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface6Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: headusOBJexport_polySurface7Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface1_headusOBJexportMat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface23_polySurface25Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: polySurface24_polySurface23Mat
+    second: {fileID: 2100000, guid: b380e19b463060344b0ffa785369bc44, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

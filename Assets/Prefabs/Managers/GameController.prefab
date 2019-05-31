@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1440487959394576}
+  m_IsPrefabParent: 1
+--- !u!1 &1440487959394576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4736443787143478}
+  - component: {fileID: 114573011369727862}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4736443787143478
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440487959394576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114573011369727862
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1440487959394576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76eacc8298dbdfd4bab0406b926b1d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiMenuScript: {fileID: 0}
+  uiGame: {fileID: 0}
+  uiGameScript: {fileID: 0}
+  areaPlayer: {fileID: 0}
+  scoreText: {fileID: 0}
+  UIHealthAnimator: {fileID: 0}
+  UIHealthLightning: {fileID: 0}
+  UIHealthText: {fileID: 0}
+  UIEnergyBar: {fileID: 0}
+  UIEnergyBarBase: {fileID: 0}
+  UIEnergyText: {fileID: 0}
+  countdownStartGame: {fileID: 0}
+  labelCountdown: {fileID: 0}
+  countdownToStartGame: 5
+  startedGame: 0
+  countdownStarted: 0
+  spawnWavesIsActive: 0
+  stillElementsLeft: 0
+  genericMessage: {fileID: 0}
+  labelGenericMessage: {fileID: 0}
+  textGenericMessage: {fileID: 0}
+  genericMessageSmall: {fileID: 0}
+  labelGenericMessageSmall: {fileID: 0}
+  textGenericMessageSmall: {fileID: 0}
+  winMessage: {fileID: 0}
+  loseMessage: {fileID: 0}
+  cameraPosition: {fileID: 0}
+  spawnGenerators:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  rotatingSpawnGenerator: {fileID: 0}
+  generatorsPosition: {fileID: 0}
+  directionalIndicatorGenerators: {fileID: 0}
+  directionalIndicatorGeneratorRotating: {fileID: 0}
+  planctonFlow: {fileID: 0}
+  levelsParams:
+  - healthPlayerInit: 100
+    activeGenerators: 1
+    startWait: 2
+    spawnWait: 8
+    waveWait: 10
+    elementsPerWave: 5
+    numberOfWaves: 3
+    speedElements: 0.2
+    elementsRotationMin: {x: 0, y: -35, z: 0}
+    elementsRotationMax: {x: 0, y: 35, z: 0}
+    errorToleranceRings: 15
+    energyConsumingIsActive: 0
+    energyConsumingTimeInterval: 2
+    energyConsumingValue: 0.01
+    spawnWaitPowerups: 45
+    doubleX2Timer: 10
+    culturalBitsIsActive: 1
+    elements:
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    powerups: []
+    treasureHuntObjects: []
+    culturalMessages:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - healthPlayerInit: 25
+    activeGenerators: 1
+    startWait: 2
+    spawnWait: 8
+    waveWait: 10
+    elementsPerWave: 4
+    numberOfWaves: 1
+    speedElements: 0.2
+    elementsRotationMin: {x: 0, y: -25, z: 0}
+    elementsRotationMax: {x: 0, y: 25, z: 0}
+    errorToleranceRings: 20
+    energyConsumingIsActive: 1
+    energyConsumingTimeInterval: 2
+    energyConsumingValue: 0.01
+    spawnWaitPowerups: 40
+    doubleX2Timer: 10
+    culturalBitsIsActive: 1
+    elements:
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1009695160733068, guid: 17816acd4099da44992238708e43924a, type: 2}
+    - {fileID: 1435571663859882, guid: ebc3ca55173a1144ebad942173d19d76, type: 2}
+    - {fileID: 1780047919903280, guid: f2f32961683aab24082cff31e12c2e7a, type: 2}
+    powerups:
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1798935922579460, guid: 2d619adcc8f5dc04abee3e28194fa85e, type: 2}
+    treasureHuntObjects:
+    - {fileID: 1520470840478770, guid: 837787a5d03e3a34796d3fcbad389547, type: 2}
+    - {fileID: 1552587248265654, guid: fe685069127b03a4ba87149ba1636fc5, type: 2}
+    - {fileID: 1144003725179490, guid: 8989ea5c3e81d334196795fdf14b6487, type: 2}
+    - {fileID: 1812418642204296, guid: c82790ae350b06f4aba43e6fe0aeb3d5, type: 2}
+    - {fileID: 1435850268516416, guid: c76240a012987f747921151b8ef20ce7, type: 2}
+    - {fileID: 1932470407025472, guid: 81cb4e77b7ef33045837a5f4163df037, type: 2}
+    - {fileID: 1184548823255958, guid: 1a91195ec92511444aeb862626d3d4ec, type: 2}
+    - {fileID: 1543344418447102, guid: db5b2b8d21e1fb74989ccedf8ac1f455, type: 2}
+    - {fileID: 1501498851438808, guid: c97e33e3b409c064bb926cab4d9d919f, type: 2}
+    - {fileID: 1110113584949746, guid: 58e7e0826080761469d1ec4162ba2552, type: 2}
+    - {fileID: 1706322454089892, guid: 8f6c08a52d0b8dd4d974c9dbf49d17c2, type: 2}
+    - {fileID: 1192443802644862, guid: e4bd59f3f128eae4c86a9fd0622a9ee0, type: 2}
+    - {fileID: 1107169956264926, guid: 089e396010a9f5a4d8ff3305fd12f930, type: 2}
+    - {fileID: 1945001708208358, guid: cf10054df8ce563469f5902f0b738053, type: 2}
+    - {fileID: 1284503677180760, guid: b5d4d2e8f5763904c8b94685587ef3f5, type: 2}
+    - {fileID: 1906318875153562, guid: 8b8924c6fb6a8ab44b21bd37554378db, type: 2}
+    - {fileID: 1253300367109158, guid: bd6228bf8dac6cc418fb944bf2b78743, type: 2}
+    culturalMessages:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - healthPlayerInit: 25
+    activeGenerators: 2
+    startWait: 2
+    spawnWait: 7.5
+    waveWait: 10
+    elementsPerWave: 4
+    numberOfWaves: 1
+    speedElements: 0.27
+    elementsRotationMin: {x: 0, y: -33, z: 0}
+    elementsRotationMax: {x: 0, y: 33, z: 0}
+    errorToleranceRings: 25
+    energyConsumingIsActive: 1
+    energyConsumingTimeInterval: 2
+    energyConsumingValue: 0.01
+    spawnWaitPowerups: 50
+    doubleX2Timer: 10
+    culturalBitsIsActive: 1
+    elements:
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1009695160733068, guid: 17816acd4099da44992238708e43924a, type: 2}
+    - {fileID: 1435571663859882, guid: ebc3ca55173a1144ebad942173d19d76, type: 2}
+    - {fileID: 1780047919903280, guid: f2f32961683aab24082cff31e12c2e7a, type: 2}
+    - {fileID: 1590595660549300, guid: 6c7f8953668160a429b29933057aebb2, type: 2}
+    - {fileID: 1250617748980126, guid: c702a435b2773c84fae593a8d42e2faf, type: 2}
+    powerups:
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1798935922579460, guid: 2d619adcc8f5dc04abee3e28194fa85e, type: 2}
+    treasureHuntObjects:
+    - {fileID: 1520470840478770, guid: 837787a5d03e3a34796d3fcbad389547, type: 2}
+    - {fileID: 1552587248265654, guid: fe685069127b03a4ba87149ba1636fc5, type: 2}
+    - {fileID: 1000330921701186, guid: 09c16232182f6f64a8551f2c54ddc690, type: 2}
+    - {fileID: 1144003725179490, guid: 8989ea5c3e81d334196795fdf14b6487, type: 2}
+    - {fileID: 1812418642204296, guid: c82790ae350b06f4aba43e6fe0aeb3d5, type: 2}
+    - {fileID: 1435850268516416, guid: c76240a012987f747921151b8ef20ce7, type: 2}
+    - {fileID: 1932470407025472, guid: 81cb4e77b7ef33045837a5f4163df037, type: 2}
+    - {fileID: 1184548823255958, guid: 1a91195ec92511444aeb862626d3d4ec, type: 2}
+    - {fileID: 1543344418447102, guid: db5b2b8d21e1fb74989ccedf8ac1f455, type: 2}
+    - {fileID: 1501498851438808, guid: c97e33e3b409c064bb926cab4d9d919f, type: 2}
+    - {fileID: 1110113584949746, guid: 58e7e0826080761469d1ec4162ba2552, type: 2}
+    - {fileID: 1706322454089892, guid: 8f6c08a52d0b8dd4d974c9dbf49d17c2, type: 2}
+    - {fileID: 1192443802644862, guid: e4bd59f3f128eae4c86a9fd0622a9ee0, type: 2}
+    - {fileID: 1107169956264926, guid: 089e396010a9f5a4d8ff3305fd12f930, type: 2}
+    - {fileID: 1945001708208358, guid: cf10054df8ce563469f5902f0b738053, type: 2}
+    - {fileID: 1284503677180760, guid: b5d4d2e8f5763904c8b94685587ef3f5, type: 2}
+    - {fileID: 1906318875153562, guid: 8b8924c6fb6a8ab44b21bd37554378db, type: 2}
+    - {fileID: 1253300367109158, guid: bd6228bf8dac6cc418fb944bf2b78743, type: 2}
+    culturalMessages:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - healthPlayerInit: 25
+    activeGenerators: 4
+    startWait: 2
+    spawnWait: 7
+    waveWait: 10
+    elementsPerWave: 4
+    numberOfWaves: 1
+    speedElements: 0.4
+    elementsRotationMin: {x: 0, y: -45, z: 0}
+    elementsRotationMax: {x: 0, y: 45, z: 0}
+    errorToleranceRings: 15
+    energyConsumingIsActive: 1
+    energyConsumingTimeInterval: 2
+    energyConsumingValue: 0.01
+    spawnWaitPowerups: 60
+    doubleX2Timer: 15
+    culturalBitsIsActive: 1
+    elements:
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d, type: 2}
+    - {fileID: 1435571663859882, guid: ebc3ca55173a1144ebad942173d19d76, type: 2}
+    - {fileID: 1780047919903280, guid: f2f32961683aab24082cff31e12c2e7a, type: 2}
+    - {fileID: 1250617748980126, guid: c702a435b2773c84fae593a8d42e2faf, type: 2}
+    - {fileID: 1590595660549300, guid: 6c7f8953668160a429b29933057aebb2, type: 2}
+    - {fileID: 1009695160733068, guid: 17816acd4099da44992238708e43924a, type: 2}
+    powerups:
+    - {fileID: 1798935922579460, guid: 2d619adcc8f5dc04abee3e28194fa85e, type: 2}
+    - {fileID: 1798935922579460, guid: 2d619adcc8f5dc04abee3e28194fa85e, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    - {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac, type: 2}
+    treasureHuntObjects:
+    - {fileID: 1520470840478770, guid: 837787a5d03e3a34796d3fcbad389547, type: 2}
+    - {fileID: 1144003725179490, guid: 8989ea5c3e81d334196795fdf14b6487, type: 2}
+    - {fileID: 1812418642204296, guid: c82790ae350b06f4aba43e6fe0aeb3d5, type: 2}
+    - {fileID: 1435850268516416, guid: c76240a012987f747921151b8ef20ce7, type: 2}
+    - {fileID: 1932470407025472, guid: 81cb4e77b7ef33045837a5f4163df037, type: 2}
+    - {fileID: 1184548823255958, guid: 1a91195ec92511444aeb862626d3d4ec, type: 2}
+    - {fileID: 1543344418447102, guid: db5b2b8d21e1fb74989ccedf8ac1f455, type: 2}
+    - {fileID: 1501498851438808, guid: c97e33e3b409c064bb926cab4d9d919f, type: 2}
+    - {fileID: 1110113584949746, guid: 58e7e0826080761469d1ec4162ba2552, type: 2}
+    - {fileID: 1706322454089892, guid: 8f6c08a52d0b8dd4d974c9dbf49d17c2, type: 2}
+    - {fileID: 1192443802644862, guid: e4bd59f3f128eae4c86a9fd0622a9ee0, type: 2}
+    - {fileID: 1107169956264926, guid: 089e396010a9f5a4d8ff3305fd12f930, type: 2}
+    - {fileID: 1945001708208358, guid: cf10054df8ce563469f5902f0b738053, type: 2}
+    - {fileID: 1284503677180760, guid: b5d4d2e8f5763904c8b94685587ef3f5, type: 2}
+    - {fileID: 1906318875153562, guid: 8b8924c6fb6a8ab44b21bd37554378db, type: 2}
+    - {fileID: 1253300367109158, guid: bd6228bf8dac6cc418fb944bf2b78743, type: 2}
+    culturalMessages:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  torusBubble: {fileID: 1184800536938160, guid: 34819d7c068ddb44daca4ee02e52c12d,
+    type: 2}
+  food: {fileID: 1009695160733068, guid: 17816acd4099da44992238708e43924a, type: 2}
+  obstacle1Bottle: {fileID: 1435571663859882, guid: ebc3ca55173a1144ebad942173d19d76,
+    type: 2}
+  obstacle2Can: {fileID: 1780047919903280, guid: f2f32961683aab24082cff31e12c2e7a,
+    type: 2}
+  shark1: {fileID: 1250617748980126, guid: c702a435b2773c84fae593a8d42e2faf, type: 2}
+  shark2: {fileID: 1590595660549300, guid: 6c7f8953668160a429b29933057aebb2, type: 2}
+  healthPowerup: {fileID: 1295688566591808, guid: 468bb8a73a092c64ab874351321de7ac,
+    type: 2}
+  x2Powerup: {fileID: 1798935922579460, guid: 2d619adcc8f5dc04abee3e28194fa85e, type: 2}
+  lightningEffect: {fileID: 1274977275921124, guid: d2f55dfd1bf114d459784c3eb3969770,
+    type: 2}
+  gameModeSelected: 1
+  currentPhaseOfLevel: 0
+  currentLevel: 1

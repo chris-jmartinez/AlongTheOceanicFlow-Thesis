@@ -1,0 +1,12 @@
+{
+	"requestType": "set",
+	"motorControllerSetter": [
+		{
+			"type":"dc",
+			"id": 1,
+			"direction" : "cw",
+			"speed": 90,
+			"duration": 500
+		}
+   ]
+}

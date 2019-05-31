@@ -1,0 +1,1 @@
+Può essere cancellato assieme allo script di gif importer, nel caso non ce ne sia più bisogno

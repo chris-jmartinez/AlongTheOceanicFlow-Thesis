@@ -1,0 +1,27 @@
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.59 0.59 0.59
+Tf 0.43 0.43 0.43
+map_Kd phatpuppy_jellyfish_fields_by_phatpuppy.jpg
+Ni 1.00
+newmtl lambert4SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.62 0.62 0.62
+Tf 0.69 0.69 0.69
+map_Kd texture_73_2000_x_2000_by_frostbo-d4c4u9j.jpg
+Ni 1.00
+newmtl lambert5SG
+illum 4
+Kd 0.03 0.07 0.22
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert8SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.43 0.43 0.43
+Tf 0.88 0.88 0.88
+map_Kd texture_73_2000_x_2000_by_frostbo-d4c4u9j.jpg
+Ni 1.00

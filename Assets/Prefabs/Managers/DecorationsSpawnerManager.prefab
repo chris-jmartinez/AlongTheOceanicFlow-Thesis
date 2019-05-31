@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1412466110224470}
+  m_IsPrefabParent: 1
+--- !u!1 &1412466110224470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4355114882319720}
+  - component: {fileID: 114964031195859792}
+  m_Layer: 0
+  m_Name: DecorationsSpawnerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4355114882319720
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412466110224470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114964031195859792
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412466110224470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffaef0fd1c13f494d8a31dbefc6191a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialWorldObjectPrefabs:
+  - {fileID: 0}
+  playfield: {fileID: 0}
+  water: {fileID: 0}
+  waterCamera: {fileID: 0}
+  seagullsGroup: {fileID: 0}
+  floorDecorationObjectPrefabs:
+  - {fileID: 1144003725179490, guid: 8989ea5c3e81d334196795fdf14b6487, type: 2}
+  - {fileID: 1812418642204296, guid: c82790ae350b06f4aba43e6fe0aeb3d5, type: 2}
+  - {fileID: 1435850268516416, guid: c76240a012987f747921151b8ef20ce7, type: 2}
+  - {fileID: 1932470407025472, guid: 81cb4e77b7ef33045837a5f4163df037, type: 2}
+  - {fileID: 1184548823255958, guid: 1a91195ec92511444aeb862626d3d4ec, type: 2}
+  - {fileID: 1543344418447102, guid: db5b2b8d21e1fb74989ccedf8ac1f455, type: 2}
+  - {fileID: 1501498851438808, guid: c97e33e3b409c064bb926cab4d9d919f, type: 2}
+  - {fileID: 1110113584949746, guid: 58e7e0826080761469d1ec4162ba2552, type: 2}
+  - {fileID: 1706322454089892, guid: 8f6c08a52d0b8dd4d974c9dbf49d17c2, type: 2}
+  - {fileID: 1192443802644862, guid: e4bd59f3f128eae4c86a9fd0622a9ee0, type: 2}
+  - {fileID: 1107169956264926, guid: 089e396010a9f5a4d8ff3305fd12f930, type: 2}
+  - {fileID: 1945001708208358, guid: cf10054df8ce563469f5902f0b738053, type: 2}
+  - {fileID: 1284503677180760, guid: b5d4d2e8f5763904c8b94685587ef3f5, type: 2}
+  - {fileID: 1906318875153562, guid: 8b8924c6fb6a8ab44b21bd37554378db, type: 2}
+  - {fileID: 1253300367109158, guid: bd6228bf8dac6cc418fb944bf2b78743, type: 2}
+  - {fileID: 1427502535906678, guid: b8b0acb4e5fb31542a4157832be6267b, type: 2}
+  - {fileID: 1673169074941526, guid: b6658207debf5eb41a2090b5774a1b85, type: 2}
+  - {fileID: 1694238904144500, guid: 65e3ba72b633aef4196ebc9249a67378, type: 2}
+  - {fileID: 1897170519151750, guid: d9696a2b2aa74384fbc31fe03862ee9c, type: 2}
+  - {fileID: 1263554236829832, guid: b96792af06178d44a959c697d5832e4f, type: 2}
+  - {fileID: 1114319257713302, guid: 3d10da81397b5cd44bb812ee721547e0, type: 2}
+  - {fileID: 1461322473529332, guid: 3b38157018e9b1643833a86642c22083, type: 2}
+  - {fileID: 1242904256264440, guid: f1e724e59750b784583e24dce5749598, type: 2}
+  - {fileID: 1215614520836072, guid: f18b15c6444e5e04a852f85624e76a42, type: 2}
+  - {fileID: 1730540845698400, guid: 4820a96e3f317614cbf7669bba420e34, type: 2}
+  - {fileID: 1863013408070064, guid: 3783c6f78891620449102eca26c928ff, type: 2}
+  - {fileID: 1196518196565176, guid: d1caa007688bc3448bf3a5db76a391fb, type: 2}
+  - {fileID: 1197260798205302, guid: 13795b0d03f7e8c498b6f8c063e68bb4, type: 2}
+  - {fileID: 1454932964179252, guid: c3f9cea5c1a79364790f21405dcd215b, type: 2}
+  - {fileID: 1791351064968580, guid: 8ae87d8b60f170a4893a690cb24cfbcc, type: 2}
+  - {fileID: 1736399020865512, guid: f2936d69ff20fdc43b67619a7f062b0a, type: 2}
+  gifWallsDecorationObjectPrefabs:
+  - {fileID: 1184536333515396, guid: d2e2d8549b1928741a1f1c1ba4b8cddf, type: 2}
+  - {fileID: 1484909069592876, guid: 70ece44ff9a35414588a3efdd6b4d470, type: 2}
+  - {fileID: 1432342808015768, guid: f56b1a4583cf6a048866ffe01f9c4de1, type: 2}
+  - {fileID: 1877435875036100, guid: 9fa58c820dcd23a439c97ddfd286f269, type: 2}
+  - {fileID: 1291327673183162, guid: 93c9054c08189a649acd49005eb148ed, type: 2}
+  - {fileID: 1611372992246782, guid: c194979f5b3c64942b6c5df05c1f7e8e, type: 2}
+  - {fileID: 1323194815465860, guid: 85d54d600c8fd464bad74234ce347f4f, type: 2}
+  - {fileID: 1644059230809514, guid: bea65e85e5a35c642975eb6f183ff91c, type: 2}
+  - {fileID: 1104810451873100, guid: 9f8a3d7b89cb758439d5688c002e2994, type: 2}
+  - {fileID: 1581756058486686, guid: 2315f74479b39124fada87cdaab77161, type: 2}
+  - {fileID: 1703186551171212, guid: 4fe05b5d0c4bbf34fa2b1d18215bfa92, type: 2}
+  paintingsWallsDecorationObjectPrefabs:
+  - {fileID: 1800180560178468, guid: 797b7aba9137fe94f955143e4fe467f4, type: 2}
+  - {fileID: 1332777269607736, guid: 83b98959c7f0d794292f886030833e84, type: 2}
+  - {fileID: 1983485889208536, guid: 8b39662e419b1bf45bf0f6425b543dc8, type: 2}
+  - {fileID: 1291057864128530, guid: 89407d792ae245a4fb14114da26115b2, type: 2}
+  maskToConsiderOverlappingObjects:
+    serializedVersion: 2
+    m_Bits: 256
