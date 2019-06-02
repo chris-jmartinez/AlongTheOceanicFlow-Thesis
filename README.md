@@ -16,11 +16,11 @@ HoloLens, Vuforia, Smart Objects.
 
 <b>Abstract:</b>
 
-<p>Neurodevelopmental disorders (NDD) are pathologies that can appear in child’s early developmental process, limiting personal, cognitive and motor capabilities. 
+<p>Neurodevelopmental disorders (NDD) are pathologies that can appear in childâ€™s early developmental process, limiting personal, cognitive and motor capabilities. 
 The purpose of this thesis is to explore the potential of the Tangible Mixed Reality (TMR) in helping subjects affected by those pathologies. This term refers to a type of 
 Mixed Reality (MR) including the interaction between MR devices and Smart Objects with tangible feedbacks. This innovative interaction paradigm has been instantiated in an 
 application called Along the Oceanic Flow (ATOF). This application is designed to support NDD experts and has the goal to help people affected by NDD to improve motor and 
-cognitive skills through game exercises. ATOF transforms the user’s room into an ocean floor full of interactive decorations in which the subject, leveraging the 
+cognitive skills through game exercises. ATOF transforms the userâ€™s room into an ocean floor full of interactive decorations in which the subject, leveraging the 
 TMR interaction paradigm, has to complete different experiences by doing motor and cognitive tasks like collecting elements, avoiding obstacles and finding ways to open 
 treasure chests. The tasks have been thought to be very easy to complete and, among them, there is an experience in which the difficulty of the exercises gradually increases 
 during the game. Furthermore, all the experiences can be customized by the therapist in order to satisfy the specific needs of each user-patient, given the fact that 
@@ -30,3 +30,20 @@ each one of them will have a different degree of disability. An exploratory stud
  applications based on the TMR paradigm, could be adopted as a complement to more traditional interventions. This work, the problems encountered, and the solutions implemented,
  could be inspirational for the designers and developers of future TMR applications dedicated to people affected by NDD and not only. </p>
 
+<p align="center">
+<br> <img src="images/atof1.jpg" width = 400><img src="images/atof2.jpg" width = 400>
+<br> <img src="images/atof3.jpg" width = 400><img src="images/atof4.jpg" width = 400> 
+</p>
+<p align="center">
+ <img src="images/atof5.png" width = 500>
+</p>
+<p align="center">
+<br> <img src="images/atof6.jpg" width = 430> <img src="images/atof7.JPG" width = 400>
+<br> <img src="images/atof8.png" width = 400><img src="images/atof10.png" width = 440>
+</p>
+<p align="center">
+<img src="images/atof9.jpg" width = 400>
+</p>
+<p align="center">
+<br> <img src="images/atof11.jpg" width = 400><img src="images/atof12.jpg" width = 400>
+</p>
