@@ -2,6 +2,11 @@ __AlongTheOceanicFlow (ATOF)__
 <br>Youtube video: https://www.youtube.com/watch?v=fXUbgwYNnbk
 <br>Thesis document: http://hdl.handle.net/10589/145576
 
+<p align="center">
+<br> <img src="images/atof1.jpg" width = 400><img src="images/atof2.jpg" width = 400>
+<br> <img src="images/atof3.jpg" width = 400><img src="images/atof4.jpg" width = 400> 
+</p>
+
 __Platform:__ 
 Application for HoloLens.
 
@@ -30,10 +35,7 @@ each one of them will have a different degree of disability. An exploratory stud
  applications based on the TMR paradigm, could be adopted as a complement to more traditional interventions. This work, the problems encountered, and the solutions implemented,
  could be inspirational for the designers and developers of future TMR applications dedicated to people affected by NDD and not only. </p>
 
-<p align="center">
-<br> <img src="images/atof1.jpg" width = 400><img src="images/atof2.jpg" width = 400>
-<br> <img src="images/atof3.jpg" width = 400><img src="images/atof4.jpg" width = 400> 
-</p>
+
 <p align="center">
  <img src="images/atof5.png" width = 500>
 </p>
